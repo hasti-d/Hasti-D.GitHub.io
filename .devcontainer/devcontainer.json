@@ -1,0 +1,62 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ruby
+{
+    "name": "Svelte CV",
+
+    // // use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    // // Tag list: https://mcr.microsoft.com/v2/devcontainers/typescript-node/tags/list
+    // "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "${localWorkspaceFolder}",
+        "args": {
+            "DEVBOX_USER": "node",
+            "CONTAINER_WORKSPACE_FOLDER": "${containerWorkspaceFolder}"
+        }
+    },
+
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace",
+
+    // Use specific user inside the container.
+    "remoteUser": "node",
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+        // "ghcr.io/devcontainers/features/github-cli:1": {
+        //     "installDirectlyFromGitHubRelease": true,
+        //     "version": "latest"
+        // }
+    },
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [
+        5173
+    ],
+
+    // Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": ". ${containerWorkspaceFolder}/.devcontainer/postCreateCommand.sh",
+
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Codeium.codeium",
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "hediet.vscode-drawio",
+                "jetpack-io.devbox",
+                "moalamri.inline-fold",
+                "ms-vscode.js-debug",
+                "mutantdino.resourcemonitor",
+                "streetsidesoftware.code-spell-checker",
+                "svelte.svelte-vscode",
+                "task.vscode-task"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    }
+}
