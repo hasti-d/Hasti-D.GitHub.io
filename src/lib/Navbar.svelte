@@ -19,7 +19,7 @@
 	class:bg-primary={isScrolled}
 	class:shadow-lg={isScrolled}
 >
-	<div class="container mx-auto flex items-center justify-between">
+	<div class="container mx-auto flex items-center justify-between px-2">
 		<div class="text-xl font-bold text-white">Hasti Dave : Health Data Analyst</div>
 		<Print />
 	</div>
