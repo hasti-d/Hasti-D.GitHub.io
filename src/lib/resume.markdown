@@ -21,7 +21,7 @@ Experienced health data analyst with a deep background in healthcare quality mea
 
 - **Subject Matter Expertise in HEDIS and NCQA Standards:** Over the past 7 years, developed deep expertise in HEDIS and NCQA metrics, becoming the go-to subject matter expert within the company. Leveraged this knowledge to drive improvements in reporting accuracy and support data-driven quality initiatives.
 
-- **Leveraging AI for Enhanced Efficiency:** Skilled in utilizing cutting-edge AI tools (ChatGPT, Google Gemini, Anthropic Claude) to streamline analysis, boost productivity, and produce rapid insights in healthcare data. Proactively adapts to new tools to stay ahead in a dynamic healthcare landscape.
+- **Leveraging AI for Enhanced Efficiency:** Skilled in utilizing cutting-edge AI tools (Anthropic Claude, OpenAI ChatGPT, Google Gemini) to streamline analysis, boost productivity, and produce rapid insights in healthcare data. Proactively adapts to new tools to stay ahead in a dynamic healthcare landscape.
 
 - **Automation and Scalability with Python:** Experienced in using Python to automate repetitive tasks, improve data accuracy, and scale analytical processes, significantly reducing manual workload and increasing operational efficiency.
 
@@ -29,39 +29,32 @@ Experienced health data analyst with a deep background in healthcare quality mea
 
 # Skills Matrix
 
-| **Databases** | **Developer Tools**          | **Healthcare Analytics Tools**  | **Organization Software** |
-| ------------- | ---------------------------- | ------------------------------- | ------------------------- |
-| Azure SQL     | Azure Data Studio            | Claims & Clinical Data Analysis | Service Now               |
-| SQL Server    | SQL Server Management Studio | Python                          | MS Office                 |
-| Oracle        | Oracle Developer Studio      | R                               | MS Teams                  |
-| Snowflake     | VS Code                      | Alteryx ETL Engine              | Power BI                  |
-
-# Standards and Regulations
-
-| **HEDIS**                                             | **NCQA**                                     | **CMS**                                                         | **PCMH**                               |
-| ----------------------------------------------------- | -------------------------------------------- | --------------------------------------------------------------- | -------------------------------------- |
-| **Healthcare Effectiveness Data and Information Set** | **National Committee for Quality Assurance** | **Centers for Medicare & Medicaid Services**                    | **Patient-Centered Medical Home**      |
-| Focus on quality care and performance metrics         | Standards for health care organizations      | Ensures healthcare quality, safety, and reimbursement standards | Model for organizing primary care      |
-| Experienced in HEDIS measure reporting and analysis   | Knowledge of NCQA accreditation processes    | Expertise in Medicare and Medicaid regulations and standards    | Expertise in PCMH care delivery models |
+| **_Skill Category_** | **Tools & Technologies** |
+| ----- | ----- |
+| **_Standards and Compliance_** | HEDIS, NCQA, CMS, PCMH |
+| **_Databases_** | Azure SQL, SQL Server, Oracle, Snowflake |
+| **_Developer Tools_** | Azure Data Studio, SQL Server Management Studio, Oracle Developer Studio, VS Code |
+| **_Healthcare Analytics Tools_** | Claims & Clinical Data Analysis, Python, R, Alteryx ETL Engine |
+| **_Organization Software_** | MS Office, MS Teams, Power BI |
 
 ---
 
 # Experience
 
-- #### [**Auckland One Rail**](https://aucklandonerail.co.nz/about-us/) **, New Zealand**
+#### [**Auckland One Rail**](https://aucklandonerail.co.nz/about-us/) **, New Zealand**
 
-  - #### Lead Data Analyst, Mar 2024 - Sep 2024
+#### <u>Lead Data Analyst</u>, Mar 2024 - Sep 2024 (6 months, contract)
 
     - Led data-driven decision-making through robust analytical insights.
     - Developed and standardized key metrics that reduced fare evasion rates from 8% to 3%, achieving a 62.5% improvement.
     - Produced executive-level dashboards in Power BI, providing timely insights on customer behavior and operational trends.
     - Coordinated with cross-functional teams to streamline data extraction from hardware vendors, enhance SQL database organization, and unify reporting practices.
 
-    <br />
+<br />
 
-- #### [**CareFirst, Blue Cross Blue Shield of Maryland**](https://www.carefirst.com/) **, Baltimore, MD**
+#### [**CareFirst, Blue Cross Blue Shield of Maryland**](https://www.carefirst.com/) **, Baltimore, MD**
 
-  - #### Stars & Risk Adjusted Senior Analyst, Aug 2022 - Aug 2023
+#### <u>Stars & Risk Adjusted Senior Analyst</u>, Aug 2022 - Aug 2023 (1 year)
 
     - Conducted in-depth data analyses to identify trends and insights supporting data-driven decision-making.
     - Designed dashboards and visualizations that simplified complex healthcare data for diverse stakeholders.
@@ -69,9 +62,9 @@ Experienced health data analyst with a deep background in healthcare quality mea
     - Automated data pipelines and ETL workflows using Alteryx, increasing efficiency and reducing processing time.
     - Performed data quality monitoring and correction across medical claims, lab, and pharmacy data sources to enhance accuracy.
 
-    <br />
+<br />
 
-  - #### Health Informatics Analyst, June 2017 - July 2022
+#### <u>Health Informatics Analyst</u>, June 2017 - July 2022 (5 years)
 
     - Applied expertise in government health performance metrics, actively engaging in data discovery and insight generation.
     - Leveraged SQL to aggregate and analyze claims data for CareFirst’s Patient-Centered Medical Home (PCMH) program.
@@ -87,8 +80,11 @@ Experienced health data analyst with a deep background in healthcare quality mea
 - #### D'Youville College, Buffalo, New York
   B.S. in **Health Analytics** May 2017, Minor in **Health Services Management**
 
+<div class="mt-4 no-print">
+
 ---
 
-<div>
+  <div class="mt-4">
   <slot></slot>
+  </div>
 </div>
