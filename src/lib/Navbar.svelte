@@ -20,7 +20,7 @@
 	class:shadow-lg={isScrolled}
 >
 	<div class="container mx-auto flex items-center justify-between px-4 py-3">
-		<div class="text-xl font-bold text-white">Hasti Dave : Lead Health Data Analyst</div>
+		<div class="text-xl font-bold text-white">Hasti Dave : Health Data Analyst</div>
 		<Print />
 	</div>
 </nav>

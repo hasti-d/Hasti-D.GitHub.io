@@ -7,7 +7,7 @@ permalink: /resume
 <div class="grid-container">
   <div class="grid-item">
     <h1>
-        Hasti Dave : Lead Health Data Analyst
+        Hasti Dave : Health Data Analyst
     </h1>
   </div>
   <slot></slot>
