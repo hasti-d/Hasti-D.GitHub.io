@@ -80,11 +80,11 @@ Experienced health data analyst with a deep background in healthcare quality mea
 - #### D'Youville College, Buffalo, New York
   B.S. in **Health Analytics** May 2017, Minor in **Health Services Management**
 
-<div class="mt-4 no-print">
+<div class="no-print">
 
 ---
 
-  <div class="mt-4">
+  <div>
   <slot></slot>
   </div>
 </div>
